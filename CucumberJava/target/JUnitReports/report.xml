@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="207.99" tests="7" skipped="0" failures="5" errors="0">
+<testcase classname="feature to test login funcionality" name="check login is successful with valid credentials" time="45.37">
+<system-out><![CDATA[
+Given browser is open gogrids...............................................passed
+And user is on login page...................................................passed
+When user enters username and password......................................passed
+And clicks on login button..................................................passed
+Then user is navigated to the home page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login funcionality" name="check login is successful with valid credentials - Example #1.1" time="20.636">
+<failure type="org.openqa.selenium.TimeoutException" message="timeout: Timed out receiving message from renderer: 14.253
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8507fc6becd4007ce710715587259eb4, get {url=http://103.172.204.236:5173}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\annak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57411/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8507fc6becd4007ce710715587259eb4">
+<![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 14.253
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8507fc6becd4007ce710715587259eb4, get {url=http://103.172.204.236:5173}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\annak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57411}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57411/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8507fc6becd4007ce710715587259eb4
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:982)
+	at StepDefinitions.LoginSteps.user_is_on_login_page(LoginSteps.java:33)
+	at ?.user is on login page(file:///C:/Users/annak/eclipse-workspace/CucumberJava/src/test/Resources/Features/login.feature:18)
+]]>
+</failure>
+<system-out><![CDATA[
+Given browser is open gogrids...............................................passed
+And user is on login page...................................................failed
+When user enters "Annakrnt_" and "Annakrnt25"...............................skipped
+And clicks on login button..................................................skipped
+Then user is navigated to the home page.....................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login funcionality" name="check login is successful with valid credentials - Example #1.2" time="25.792">
+<failure type="org.openqa.selenium.TimeoutException" message="timeout: Timed out receiving message from renderer: 14.653
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bfded2fff150ef9cddeeda7ae2c08450, get {url=http://103.172.204.236:5173}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\annak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57452}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57452/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bfded2fff150ef9cddeeda7ae2c08450">
+<![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 14.653
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bfded2fff150ef9cddeeda7ae2c08450, get {url=http://103.172.204.236:5173}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\annak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57452}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57452/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bfded2fff150ef9cddeeda7ae2c08450
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:982)
+	at StepDefinitions.LoginSteps.user_is_on_login_page(LoginSteps.java:33)
+	at ?.user is on login page(file:///C:/Users/annak/eclipse-workspace/CucumberJava/src/test/Resources/Features/login.feature:18)
+]]>
+</failure>
+<system-out><![CDATA[
+Given browser is open gogrids...............................................passed
+And user is on login page...................................................failed
+When user enters "Annakrnt_" and "<blank>"..................................skipped
+And clicks on login button..................................................skipped
+Then user is navigated to the home page.....................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login funcionality" name="check login is successful with valid credentials - Example #1.3" time="32.178">
+<failure type="org.openqa.selenium.TimeoutException" message="timeout: Timed out receiving message from renderer: 13.854
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49b599e397646d0e11a3ec4b02456e6f, get {url=http://103.172.204.236:5173}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\annak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57490}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57490/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 49b599e397646d0e11a3ec4b02456e6f">
+<![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 13.854
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49b599e397646d0e11a3ec4b02456e6f, get {url=http://103.172.204.236:5173}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\annak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57490}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57490/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 49b599e397646d0e11a3ec4b02456e6f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:982)
+	at StepDefinitions.LoginSteps.user_is_on_login_page(LoginSteps.java:33)
+	at ?.user is on login page(file:///C:/Users/annak/eclipse-workspace/CucumberJava/src/test/Resources/Features/login.feature:18)
+]]>
+</failure>
+<system-out><![CDATA[
+Given browser is open gogrids...............................................passed
+And user is on login page...................................................failed
+When user enters "<blank>" and "<blank>"....................................skipped
+And clicks on login button..................................................skipped
+Then user is navigated to the home page.....................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login funcionality" name="check login is successful with valid credentials - Example #1.4" time="51.204">
+<system-out><![CDATA[
+Given browser is open gogrids...............................................passed
+And user is on login page...................................................passed
+When user enters "away" and "<blank>".......................................passed
+And clicks on login button..................................................passed
+Then user is navigated to the home page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login funcionality" name="check login is successful with valid credentials - Example #1.5" time="21.043">
+<failure type="org.openqa.selenium.NoSuchWindowException" message="no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff6431d9118e8a8b973fdcee810e8254, findElement {using=xpath, value=//*[@id=&quot;app&quot;]/div/div/div/main/div/div[2]/div[3]/form/div/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\annak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57590}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57590/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff6431d9118e8a8b973fdcee810e8254">
+<![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff6431d9118e8a8b973fdcee810e8254, findElement {using=xpath, value=//*[@id="app"]/div/div/div/main/div/div[2]/div[3]/form/div/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\annak\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57590}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57590/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ff6431d9118e8a8b973fdcee810e8254
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at StepDefinitions.LoginSteps.clicks_on_login_button(LoginSteps.java:50)
+	at ?.clicks on login button(file:///C:/Users/annak/eclipse-workspace/CucumberJava/src/test/Resources/Features/login.feature:20)
+]]>
+</failure>
+<system-out><![CDATA[
+Given browser is open gogrids...............................................passed
+And user is on login page...................................................passed
+When user enters "<blank>" and "tes123".....................................passed
+And clicks on login button..................................................failed
+Then user is navigated to the home page.....................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="feature to test logout funcionality" name="logout is successful with valid credentials" time="9.731">
+<failure type="org.openqa.selenium.SessionNotCreatedException" message="Could not start a new session. Response code 500. Message: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=112.0.5615.138) 
+Host info: host: 'DESKTOP-K9O7DQN', ip: '192.168.1.7'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]">
+<![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=112.0.5615.138) 
+Host info: host: 'DESKTOP-K9O7DQN', ip: '192.168.1.7'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:148)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:106)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:67)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:165)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:73)
+	at StepDefinitions.LogoutSteps.browser_is_open_gogrids(LogoutSteps.java:27)
+	at StepDefinitions.LogoutSteps.user_is_logged_on_page(LogoutSteps.java:70)
+	at ?.user is login on page(file:///C:/Users/annak/eclipse-workspace/CucumberJava/src/test/Resources/Features/logout.feature:9)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user is login on page.................................................failed
+When user click profile.....................................................skipped
+And click on logout icon....................................................skipped
+Then user is navigated to login page........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
